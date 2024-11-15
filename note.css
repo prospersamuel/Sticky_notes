@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: cursive;    
+box-sizing: border-box;
+}
+body{
+    background:linear-gradient(90deg, #2b5876, #4e4376);
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 5%;
+    display: flex;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+.container h1 img{
+    width: 100px;
+}
+.container button img{
+    width: 25px;
+    margin-right: 8px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#d13d53, #5c0613);
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    margin: 30px 0 20px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgb(34, 33, 33);
+
+}
+.container button:active{
+    background: linear-gradient(#d13d538e, #5c061398);
+
+}
+.head-container{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+.input-box{
+    overflow: scroll;
+    position: relative;
+    width: 100%;
+    max-width:235px;
+    height: 25vh;
+    min-height: 200px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius:5px ;
+    background: linear-gradient(135deg, #f9e874
+    , #d4af08dc);
+    box-shadow: 0 0 8px rgb(34, 33, 33);
+}
+
+
+.input-box img{
+    position: absolute;
+    width: 25px;
+    background-color: #333;
+    width: 25px;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.note-container{
+    margin-right: 2%;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2%;
+}
